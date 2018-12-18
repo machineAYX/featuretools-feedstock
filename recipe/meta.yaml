@@ -43,7 +43,7 @@ test:
     - featuretools info --help
     - featuretools install --help
     - featuretools list-primitives
-    - pytest featuretools/tests
+    - pytest featuretools/tests/primitive_tests/test_install_primitives.py::test_install_primitives
   imports:
     - featuretools
   requires:
