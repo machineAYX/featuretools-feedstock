@@ -43,7 +43,7 @@ test:
     - featuretools info --help
     - featuretools install --help
     - featuretools list-primitives
-    - pytest featuretools/tests/primitive_tests/test_install_primitives.py::test_install_primitives
+    - pytest featuretools/tests/primitive_tests/test_install_primitives.py::test_install_primitives -W error::urllib3.exceptions.InsecureRequestWarning
   imports:
     - featuretools
   requires:
