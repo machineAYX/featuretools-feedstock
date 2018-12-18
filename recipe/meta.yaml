@@ -19,7 +19,7 @@ requirements:
     - pytest-runner >=4.2
     - python
   run:
-    - botocore >= 1.12.51
+    - botocore >=1.12.51
     - boto3 >=1.9.51
     - click >=7.0.0
     - cloudpickle >=0.4.0
