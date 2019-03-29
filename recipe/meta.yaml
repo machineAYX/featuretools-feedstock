@@ -16,10 +16,9 @@ build:
 requirements:
   host:
     - pip
-    - pytest-runner >=4.2
+    - pytest-runner ==4.2
     - python
   run:
-    - botocore >=1.12.51
     - boto3 >=1.9.51
     - click >=7.0.0
     - cloudpickle >=0.4.0
@@ -27,13 +26,12 @@ requirements:
     - distributed >=1.24.2
     - future >=0.16.0
     - numpy >=1.13.3
-    - pandas >=0.23.*,<0.24
+    - pandas >=0.23.*
     - psutil >=5.4.8
     - python
     - pyyaml >=3.12
     - scikit-learn >=0.20.0
     - smart_open >=1.7.1
-    - s3fs >=0.1.5
     - toolz >=0.8.2
     - tqdm >=4.19.2
 
@@ -41,20 +39,19 @@ test:
   commands:
     - featuretools --help
     - featuretools info --help
-    - featuretools install --help
     - featuretools list-primitives
     - pytest featuretools/tests
   imports:
     - featuretools
   requires:
-    - fastparquet >=0.1.6,<0.2
+    - fastparquet >=0.1.6
     - mock 2.0.*
     - pympler >=0.5,<0.6
     - pytest >=4.1.*,<4.2
     - pytest-xdist >=1.26.1
     - python-graphviz >=0.8.4
   source_files:
-    - featuretools/tests/*
+    - featuretools/*
 
 about:
   doc_url: https://docs.featuretools.com
