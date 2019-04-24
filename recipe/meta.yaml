@@ -9,6 +9,8 @@ source:
   sha256: 5411a5398da37c866bcfbee5a019c10511d1b594f375740c4028f5bea9c0a65a
 
 build:
+  entry_points:
+    - featuretools = featuretools.__main__:cli
   noarch: python
   number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
@@ -19,11 +21,11 @@ requirements:
     - pytest-runner ==4.2
     - python
   run:
-    - boto3 >=1.9.51
     - click >=7.0.0
     - cloudpickle >=0.4.0
     - dask >=1.1.0
     - distributed >=1.24.2
+    - funcsigs >=1.0.2  # remove when we drop python2
     - future >=0.16.0
     - numpy >=1.13.3
     - pandas >=0.23.*
@@ -31,7 +33,6 @@ requirements:
     - python
     - pyyaml >=3.12
     - scikit-learn >=0.20.0
-    - smart_open >=1.7.1
     - toolz >=0.8.2
     - tqdm >=4.19.2
 
