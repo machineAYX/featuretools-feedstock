@@ -41,7 +41,7 @@ test:
     - featuretools --help
     - featuretools info --help
     - featuretools list-primitives
-    - pytest featuretools/tests
+    - pytest --doctest-modules featuretools/
   imports:
     - featuretools
   requires:
