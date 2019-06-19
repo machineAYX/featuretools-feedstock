@@ -39,7 +39,7 @@ requirements:
 test:
   commands:
     - featuretools --help
-    - featuretools info --help
+    - featuretools info
     - featuretools list-primitives
     - pytest --doctest-modules featuretools/
   imports:
