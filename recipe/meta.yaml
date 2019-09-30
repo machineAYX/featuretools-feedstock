@@ -1,4 +1,4 @@
-{% set version = "0.10.1" %}
+{% set version = "0.11.0" %}
 
 package:
   name: featuretools
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/f/featuretools/featuretools-{{ version }}.tar.gz
-  sha256: 052a0816d3ef9778518238cd73382c1dfa0692d85f587d3593289a271b00cda3
+  sha256: 1bedde7d586f0e70f7c34fec808c7969c9a0231ed0f629835a4c203b862f2f19
 
 build:
   entry_points:
@@ -18,7 +18,6 @@ build:
 requirements:
   host:
     - pip
-    - pytest-runner ==4.2
     - python
   run:
     - click >=7.0.0
@@ -36,7 +35,6 @@ requirements:
     - scikit-learn >=0.20.0
     - smart_open >=1.8.4
     - s3fs >=0.2.2
-    - toolz >=0.8.2
     - tqdm >=4.32.0
 
 test:
@@ -49,8 +47,7 @@ test:
     - featuretools
   requires:
     - fastparquet >=0.1.6
-    - mock 2.0.*
-    - moto >=1.3.12
+    - moto >=1.3.13
     - pympler >=0.5,<0.6
     - pytest >=4.1.*,<4.2
     - pytest-xdist >=1.26.1
