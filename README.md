@@ -5,7 +5,7 @@ Home: https://featuretools.com
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: a framework for automated feature engineering
 
