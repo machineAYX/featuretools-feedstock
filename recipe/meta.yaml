@@ -1,4 +1,4 @@
-{% set version = "0.17.0" %}
+{% set version = "0.18.0" %}
 
 package:
   name: featuretools
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/f/featuretools/featuretools-{{ version }}.tar.gz
-  sha256: bc48086ee4ed5938338d44dcec74f6596145e7aa5f02cc42720b65b05da2a270
+  sha256: ba7fc201aa643fed5661981b9fbb8e4e5b256d221647afe9edb8a4444761b37a
 
 build:
   entry_points:
@@ -22,10 +22,10 @@ requirements:
   run:
     - click >=7.0.0
     - cloudpickle >=0.4.0
-    - dask >=1.1.0
-    - distributed >=1.24.2
+    - dask >=2.12.0
+    - distributed >=2.12.0
     - numpy >=1.13.3
-    - pandas >=0.24.1
+    - pandas >=0.24.1,<2.0.0
     - psutil >=5.4.8
     - python >=3.6.*
     - pyyaml >=3.12
