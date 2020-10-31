@@ -1,4 +1,4 @@
-{% set version = "0.20.0" %}
+{% set version = "0.21.0" %}
 
 package:
   name: featuretools
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/f/featuretools/featuretools-{{ version }}.tar.gz
-  sha256: 6a8686390597ee95215a1f3176155145a0770a6620918208e5eb08812f273dd0
+  sha256: 7e627285505d92edd5659df56bdeab6cf64f96c084d2ad0a585ec8ba37920847
 
 build:
   entry_points:
