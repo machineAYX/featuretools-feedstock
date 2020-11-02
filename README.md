@@ -5,11 +5,13 @@ Home: https://featuretools.com
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/featuretools-feedstock/blob/master/LICENSE.txt)
 
 Summary: a framework for automated feature engineering
 
+Development: https://github.com/Featuretools/featuretools/
 
+Documentation: https://docs.featuretools.com
 
 Current build status
 ====================
