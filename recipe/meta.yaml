@@ -1,4 +1,4 @@
-{% set version = "0.23.1" %}
+{% set version = "0.23.2" %}
 
 package:
   name: featuretools
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/f/featuretools/featuretools-{{ version }}.tar.gz
-  sha256: 5af40b9879aa628a567fdf04a6c36a20d5727d2a2f1174b7bdf0c3963977b5ca
+  sha256: 0b1e58baa6c3589e38d2cfe4cf169ab0fe6e196c873d38523a06e56726f957b7
 
 build:
   entry_points:
@@ -64,5 +64,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - kmax12
+    - gsheni
     - rwedge
