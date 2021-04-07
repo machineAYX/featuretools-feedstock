@@ -118,6 +118,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@kmax12](https://github.com/kmax12/)
+* [@gsheni](https://github.com/gsheni/)
 * [@rwedge](https://github.com/rwedge/)
 

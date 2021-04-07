@@ -1,4 +1,4 @@
-{% set version = "0.23.2" %}
+{% set version = "0.23.3" %}
 
 package:
   name: featuretools
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/f/featuretools/featuretools-{{ version }}.tar.gz
-  sha256: 0b1e58baa6c3589e38d2cfe4cf169ab0fe6e196c873d38523a06e56726f957b7
+  sha256: e01aebb0eb87d06e457df69bc134a99494f9f3fa95f6effb164fba30efbb6cf5
 
 build:
   entry_points:
@@ -49,7 +49,7 @@ test:
     - pympler >=0.8
     - pytest >=5.2.*
     - python-graphviz >=0.8.4
-    - smart_open >=1.8.4
+    - smart_open >=5.0.*
   source_files:
     - featuretools/*
 
