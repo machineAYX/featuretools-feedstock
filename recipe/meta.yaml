@@ -1,4 +1,4 @@
-{% set version = "0.23.3" %}
+{% set version = "0.24.0" %}
 
 package:
   name: featuretools
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/f/featuretools/featuretools-{{ version }}.tar.gz
-  sha256: e01aebb0eb87d06e457df69bc134a99494f9f3fa95f6effb164fba30efbb6cf5
+  sha256: 32a7f1ae84ababa757a46ccef1695f0843b0f224c5aae4a1ddfffb6e4c033351
 
 build:
   entry_points:
@@ -18,7 +18,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6.*
+    - python >=3.7.*
   run:
     - click >=7.0.0
     - cloudpickle >=0.4.0
@@ -27,7 +27,7 @@ requirements:
     - numpy >=1.13.3
     - pandas >=0.24.1,<2.0.0
     - psutil >=5.4.8
-    - python >=3.6.*
+    - python >=3.7.*
     - pyyaml >=3.12
     - scipy >=0.13.3
     - tqdm >=4.32.0
@@ -41,7 +41,7 @@ test:
   imports:
     - featuretools
   requires:
-    - boto3 >=1.10.45
+    - boto3 >=1.17.46
     - composeml >=0.2.0
     - fastparquet >=0.1.6
     - moto >=1.3.13
@@ -50,6 +50,7 @@ test:
     - pytest >=5.2.*
     - python-graphviz >=0.8.4
     - smart_open >=5.0.*
+    - urllib3 >=1.26.4
   source_files:
     - featuretools/*
 
