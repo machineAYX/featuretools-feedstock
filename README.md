@@ -1,7 +1,7 @@
 About featuretools
 ==================
 
-Home: https://featuretools.com
+Home: https://www.featuretools.com
 
 Package license: BSD-3-Clause
 
@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/featuretools-fe
 
 Summary: a framework for automated feature engineering
 
-Development: https://github.com/Featuretools/featuretools/
+Development: https://github.com/alteryx/Featuretools
 
-Documentation: https://docs.featuretools.com
+Documentation: https://featuretools.alteryx.com
 
 Current build status
 ====================
