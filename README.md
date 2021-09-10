@@ -21,7 +21,9 @@ NOTICE:
 The upcoming release of Featuretools 1.0.0 contains several breaking changes.
 For details on migrating to the new version, refer to Transitioning to Featuretools Version 1.0:
 
+
 https://featuretools.alteryx.com/en/woodwork-integration/resources/transition_to_ft_v1.0.html
+
 
 Please report any issues in the Featuretools GitHub repo or by messaging in Alteryx Open Source Slack.
 
