@@ -38,7 +38,7 @@ test:
     - featuretools --help
     - featuretools info
     - featuretools list-primitives
-    - pytest --pyargs featuretools
+    - pytest -n 2 --pyargs featuretools
   imports:
     - featuretools
   requires:
@@ -54,6 +54,7 @@ test:
     - smart_open >=5.0.*
     - urllib3 >=1.26.5
     - pyarrow >=3.0.0
+    - pytest-xdist >=1.26.1
   source_files:
     - featuretools/*
 
