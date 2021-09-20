@@ -1,4 +1,4 @@
-{% set version = "1.0.0rc1" %}
+{% set version = "0.27.1" %}
 
 package:
   name: featuretools
@@ -6,13 +6,13 @@ package:
 
 source:
   url: https://pypi.io/packages/source/f/featuretools/featuretools-{{ version }}.tar.gz
-  sha256: befb2b12a2786c244acf83da31dbb512993cebf0b711582ed7a266a3feea62bf
+  sha256: f9e65eb19a2fac3aa713ccfcb471f52c99b5b900672784083ac065017cb744ad
 
 build:
   entry_points:
     - featuretools = featuretools.__main__:cli
   noarch: python
-  number: 0
+  number: 2
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -21,17 +21,16 @@ requirements:
     - python >=3.7.*
   run:
     - click >=7.0.0
-    - cloudpickle >=1.5.0
-    - dask >=2021.2.0
-    - distributed >=2021.2.0
-    - numpy >=1.17.5
-    - pandas >=1.3.0,<2.0.0
+    - cloudpickle >=0.4.0
+    - dask >=2.12.0
+    - distributed >=2.12.0
+    - numpy >=1.16.6
+    - pandas >=1.2.0,<2.0.0
     - psutil >=5.6.6
     - python >=3.7.*
     - pyyaml >=5.4
     - scipy >=1.3.2
     - tqdm >=4.32.0
-    - woodwork >=0.8.1
 
 test:
   commands:
@@ -75,7 +74,7 @@ about:
     For details on migrating to the new version, refer to Transitioning to Featuretools Version 1.0:
     
     
-    https://featuretools.alteryx.com/en/latest/resources/transition_to_ft_v1.0.html
+    https://featuretools.alteryx.com/en/woodwork-integration/resources/transition_to_ft_v1.0.html
     
     
     Please report any issues in the Featuretools GitHub repo or by messaging in Alteryx Open Source Slack.
