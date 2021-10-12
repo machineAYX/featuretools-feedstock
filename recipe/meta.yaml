@@ -1,4 +1,4 @@
-{% set version = "0.27.1" %}
+{% set version = "1.0.0" %}
 
 package:
   name: featuretools
@@ -6,13 +6,13 @@ package:
 
 source:
   url: https://pypi.io/packages/source/f/featuretools/featuretools-{{ version }}.tar.gz
-  sha256: f9e65eb19a2fac3aa713ccfcb471f52c99b5b900672784083ac065017cb744ad
+  sha256: 04def8fe7dd3d3eec3cbf0a0355fe7729e012bbe39924d47ce3dfb732ef6c568
 
 build:
   entry_points:
     - featuretools = featuretools.__main__:cli
   noarch: python
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -68,15 +68,15 @@ about:
     Featuretools is a framework to perform automated feature engineering. 
     It excels at transforming temporal and relational datasets into 
     feature matrices for machine learning.
-    
+
     NOTICE:
     The upcoming release of Featuretools 1.0.0 contains several breaking changes. 
     For details on migrating to the new version, refer to Transitioning to Featuretools Version 1.0:
-    
-    
+
+
     https://featuretools.alteryx.com/en/woodwork-integration/resources/transition_to_ft_v1.0.html
-    
-    
+
+
     Please report any issues in the Featuretools GitHub repo or by messaging in Alteryx Open Source Slack.
 extra:
   recipe-maintainers:
