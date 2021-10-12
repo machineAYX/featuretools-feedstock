@@ -5,7 +5,7 @@ Home: https://www.featuretools.com
 
 Package license: BSD-3-Clause
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/feedstock-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/featuretools-feedstock/blob/master/LICENSE.txt)
 
 Summary: a framework for automated feature engineering
 
@@ -22,7 +22,7 @@ The upcoming release of Featuretools 1.0.0 contains several breaking changes.
 For details on migrating to the new version, refer to Transitioning to Featuretools Version 1.0:
 
 
-https://featuretools.alteryx.com/en/latest/resources/transition_to_ft_v1.0.html
+https://featuretools.alteryx.com/en/woodwork-integration/resources/transition_to_ft_v1.0.html
 
 
 Please report any issues in the Featuretools GitHub repo or by messaging in Alteryx Open Source Slack.
@@ -34,8 +34,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/feedstock-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5896&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/featuretools-feedstock?branchName=master">
       </a>
     </td>
   </tr>
