@@ -1,4 +1,4 @@
-{% set version = "1.3.0" %}
+{% set version = "1.4.0" %}
 
 package:
   name: featuretools
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/f/featuretools/featuretools-{{ version }}.tar.gz
-  sha256: db3ca9fa1a4d743890258d7ceb813784da4153863f2417ac714527f8b773b4cf
+  sha256: d80df734cd69d54a206cd89fe5f2a9e208f45c6851bb2b40ff9e823990951b59
 
 build:
   entry_points:
@@ -24,14 +24,14 @@ requirements:
     - cloudpickle >=1.5.0
     - dask >=2021.10.0
     - distributed >=2021.10.0
-    - numpy >=1.18.0
+    - numpy >=1.21.0
     - pandas >=1.3.0,<2.0.0
     - psutil >=5.6.6
     - python >=3.7.*
-    - pyyaml >=5.4
-    - scipy >=1.3.2
+    - scipy >=1.3.3
     - tqdm >=4.32.0
     - woodwork >=0.8.1
+
 
 test:
   commands:
@@ -44,17 +44,20 @@ test:
   requires:
     - boto3 >=1.17.46
     - composeml >=0.3.0
-    - fastparquet==0.5.0
     - graphviz !=2.47.2
+    - python-graphviz >=0.8.4
     - moto >=1.3.15
     - pip >=21.3.1
-    - pympler >=0.8
-    - pytest >=5.2.*
-    - python-graphviz >=0.8.4
-    - smart_open >=5.0.*
-    - urllib3 >=1.26.5
     - pyarrow >=3.0.0
+    - pympler >=0.8
+    - pytest >=5.2.0
+    - pytest-cov >=2.6.1
     - pytest-xdist >=1.26.1
+    - pytest >=5.2.0
+    - smart_open >=5.0.0
+    - urllib3 >=1.26.5
+    - wheel >=0.33.1
+
   source_files:
     - featuretools/*
 
