@@ -125,11 +125,10 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@davesque](https://github.com/davesque/)
+* [@dvreed77](https://github.com/dvreed77/)
 * [@gsheni](https://github.com/gsheni/)
 * [@jeff-hernandez](https://github.com/jeff-hernandez/)
 * [@rwedge](https://github.com/rwedge/)
 * [@tamargrey](https://github.com/tamargrey/)
 * [@thehomebrewnerd](https://github.com/thehomebrewnerd/)
-* [@tuethan1999](https://github.com/tuethan1999/)
 
