@@ -155,6 +155,7 @@ Feedstock Maintainers
 * [@dvreed77](https://github.com/dvreed77/)
 * [@gsheni](https://github.com/gsheni/)
 * [@jeff-hernandez](https://github.com/jeff-hernandez/)
+* [@machineAYX](https://github.com/machineAYX/)
 * [@ozzieD](https://github.com/ozzieD/)
 * [@rwedge](https://github.com/rwedge/)
 * [@sbadithe](https://github.com/sbadithe/)
