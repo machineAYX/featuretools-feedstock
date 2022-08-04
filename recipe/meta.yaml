@@ -12,7 +12,7 @@ build:
   entry_points:
     - featuretools = featuretools.__main__:cli
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -72,6 +72,8 @@ about:
 
 extra:
   recipe-maintainers:
+    - sbadithe
+    - ozzieD
     - machineAYX
     - rwedge
     - tamargrey
@@ -79,5 +81,3 @@ extra:
     - jeff-hernandez
     - gsheni
     - dvreed77
-    - sbadithe
-    - ozzieD
